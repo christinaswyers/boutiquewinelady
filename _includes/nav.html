@@ -17,15 +17,32 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                    {% if page.title != "Home"%}
+                    <li >
+                        <a href="/">Home</a>
+                    </li>
+                    {% endif %}
+                    <li>
+                      <a href="/customers">Customers</a>
+                    </li>
+                    <li> <a href="/distributors">Distributors</a>
+                    </li>
+                    {% if page.title != "Home"%}
+                     <li>
+                         <a class="page-scroll" href="/about">About</a>
+                     </li>
+                     <li>
+                       <a class="page-scroll" href="/contact">Contact</a>
+                     </li>
+                    {% endif %}
+                     {% if page.title == "Home"%}
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#customers">Customers</a>
+                      <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#distributors">Distributors</a>
-                    </li>
+                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

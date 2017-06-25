@@ -4,11 +4,15 @@
     <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     {% include nav.html %}
     {% include header.html %}
-    {% include customers.html %}
-    {% include distributors.html %} 
-    {% include about.html %}
+
+      {% if page.title == "Distributors" %}
+          {% include distributors.html %}
+      {% endif %}
+      {% if page.title == "Customers" %}
+          {% include customers.html %}
+      {% endif %}
+
     {% include contact.html %}
-    {% include map.html %}
     {% include footer.html %}
     {% include js.html %}
     </body>

@@ -257,7 +257,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.distributors-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -268,6 +268,42 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+.customers-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/party-glasses.png) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.about-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/party-glasses.png) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/party-glasses.png) no-repeat center center scroll;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
 
 #map {
     width: 100%;
