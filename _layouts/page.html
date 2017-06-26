@@ -5,12 +5,15 @@
     {% include nav.html %}
     {% include header.html %}
 
-      {% if page.title == "Distributors" %}
+      {% if page.id == "distributors" %}
           {% include distributors.html %}
       {% endif %}
-      {% if page.title == "Customers" %}
+      {% if page.id == "customers" %}
           {% include customers.html %}
       {% endif %}
+       {% if page.id == "about" %}
+           {% include about.html %}
+       {% endif %}
     {% include contact.html %}
     {% include footer.html %}
     {% include js.html %}

@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 10px 0 0 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -61,9 +61,16 @@ a:focus {
     text-decoration: none;
     color: #11505d;
 }
-
+.text-center{ text-align: center;}
+.text-left{ text-align: left;}
+.text-right{ text-align: right;}
 .light {
     font-weight: 400;
+}
+p img{
+  float: left;
+  padding: 1rem;
+  max-width: 400px;
 }
 
 .navbar-custom {
@@ -159,6 +166,7 @@ a:focus {
 .intro .intro-body .brand-heading {
     font-size: 40px;
     text-shadow: 3px 1px #222, 3px 2px #000, 3px 3px #000, 3px 4px #000;
+    padding-top: 1rem;
 }
 
 .intro .intro-body .intro-text {
@@ -255,55 +263,37 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 0px;
 }
+.basic-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    height: 100vh;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+  /*background: url(/img/party-glasses.png) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;*/
 
 .distributors-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/party-glasses.png) no-repeat center center scroll;
-    background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
 }
 .customers-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/party-glasses.png) no-repeat center center scroll;
-    background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 .about-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/party-glasses.png) no-repeat center center scroll;
-    background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 .contact-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/party-glasses.png) no-repeat center center scroll;
-    background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
-
-
+#contact {
+    padding-top: 5rem;
+}
 
 
 #map {
@@ -314,11 +304,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
-    }
-
-    .download-section {
-        padding: 100px 0;
+        padding-top: 0px;
     }
 
     #map {
