@@ -5,9 +5,14 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-glass"></i>  <span class="light">Boutique Wine</span> Lady
+               {% if page.id != "home" %}
+                <a class="navbar-brand page-scroll" href="/">
+                   <h1 class="light" style="font-size: 18px; display: inline-block;">
+                      <img  width="24" height="24" src="/img/wine-icon.png" />
+                      Boutique Wine
+                   </h1> Lady
                 </a>
+                {% endif %}
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
