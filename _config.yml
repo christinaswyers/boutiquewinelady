@@ -14,12 +14,12 @@ footer: BoutiqueWineLady.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
+  # - title: twitter
+  #   url: https://twitter.com/
   - title: facebook
-    url: https://twitter.com/SBootstrap
+    url: https://www.facebook.com/pages/Boutique-Wine-Lady/414152082312668?pnref=lhc
   - title: instagram
-    url: http://instagram.com
+    url: https://www.instagram.com/therealchristinaswyers/
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
   # - title: github
